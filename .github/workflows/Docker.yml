@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t pavand10c/webapp:latest .
+        run: docker build -t honeyrelan05/webapp:latest .
 
       - name: Push Docker image
-        run: docker push pavand10c/webapp:latest
+        run: docker push honeyrelan05/webapp:latest
